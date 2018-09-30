@@ -1,7 +1,8 @@
-A = 10
-B = 20
-C = 30
+def square(a,b):
+    return a*b
 
-D = A * B * C 
+def cube(a,b,c):
+    return a*b*c
 
-print D
+print square(5,5)
+print cube(5,5,5)
